@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:PositionalFileConnection xmi:id="_av-IgbfFEeWIdozt0J4JhA" name="Meta_sec03_022_tFileOutputMSPositional03" dataPackage="_av-IgrfFEeWIdozt0J4JhA" Server="Localhost 127.0.0.1" FilePath="/Users/talend/Desktop/TCTC_Course_Data/Input/Sfile_sec03_022_tFileOutPutMSPositional03.txt" Encoding="UTF-8" FieldSeparatorValue="&quot;30,*&quot;" RowSeparatorValue="&quot;\n&quot;"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_av-IgrfFEeWIdozt0J4JhA" name="default" dataManager="_av-IgbfFEeWIdozt0J4JhA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_av-Ig7fFEeWIdozt0J4JhA" id="_VL6DALfFEeWIdozt0J4JhA" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_av-IhLfFEeWIdozt0J4JhA" label="libraryName" length="30" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_av-IhbfFEeWIdozt0J4JhA" label="album_fk_lb" length="16" talendType="id_String" key="true" nullable="false" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_0--q0cxEEeWEH8mezfHTBA" name="tJoin_Orders" dataPackage="_0--q0sxEEeWEH8mezfHTBA" Server="Localhost 127.0.0.1" FilePath="/Users/talend/Desktop/TCTC_Course_Data/Input/tJoin_Orders.txt" Encoding="US-ASCII" FieldSeparatorValue="&quot;\t&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Tabulation"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_0--q0sxEEeWEH8mezfHTBA" name="default" dataManager="_0--q0cxEEeWEH8mezfHTBA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_0--q08xEEeWEH8mezfHTBA" id="_u4spEMxEEeWEH8mezfHTBA" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zmIzIMxFEeWEH8mezfHTBA" label="OrderID" length="10" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zmIzIcxFEeWEH8mezfHTBA" label="CustomerID" length="5" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zmIzIsxFEeWEH8mezfHTBA" label="EmployeeID" length="5" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zmIzI8xFEeWEH8mezfHTBA" label="OrderDate" length="10" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zmIzJMxFEeWEH8mezfHTBA" label="ShipperID" length="5" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:LdifFileConnection xmi:id="_t5O30LJ0EeWbeZFfHs8X7A" name="Meta_sec03_007_tFileInputLDIF" dataPackage="_t5O30bJ0EeWbeZFfHs8X7A" FilePath="/Users/talend/Desktop/TCTC_Course_Data/Input/Metadata/tFileInputLDIF.ldif" Server="Localhost 127.0.0.1">
+    <value>telephonenumber</value>
+    <value>roomnumber</value>
+    <value>uid</value>
+  </TalendMetadata:LdifFileConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_t5O30bJ0EeWbeZFfHs8X7A" name="default" dataManager="_t5O30LJ0EeWbeZFfHs8X7A">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_t5O30rJ0EeWbeZFfHs8X7A" id="_NUlg4LJ0EeWbeZFfHs8X7A" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_t5O307J0EeWbeZFfHs8X7A" label="uid" length="10" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_t5O31LJ0EeWbeZFfHs8X7A" label="roomnumber" length="4" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_t5O31bJ0EeWbeZFfHs8X7A" label="telephonenumber" length="15" talendType="id_String"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

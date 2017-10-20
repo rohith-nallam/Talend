@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_IZnUQM4WEeWlMrnyF_9V8Q" comment="connectionComment" label="connectionLabel" dataPackage="_IZnUQc4WEeWlMrnyF_9V8Q"/>
+  <TalendMetadata:GenericPackage xmi:id="_IZnUQc4WEeWlMrnyF_9V8Q" dataManager="_IZnUQM4WEeWlMrnyF_9V8Q">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_IZnUQs4WEeWlMrnyF_9V8Q" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_IZnUQ84WEeWlMrnyF_9V8Q" name="FirstName" id="27622" label="FirstName" length="40" precision="-1" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_IZnURM4WEeWlMrnyF_9V8Q"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_IZnURc4WEeWlMrnyF_9V8Q" name="LastName" id="27623" label="LastName" length="40" precision="-1" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_IZnURs4WEeWlMrnyF_9V8Q"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_IZnUR84WEeWlMrnyF_9V8Q" name="Country" id="27624" label="Country" length="40" precision="-1" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_IZnUSM4WEeWlMrnyF_9V8Q"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_IZnUSc4WEeWlMrnyF_9V8Q" name="Date" id="27625" label="Date" length="10" precision="-1" sourceType="" talendType="id_Date" pattern="&quot;dd/MM/yyyy&quot;">
+        <initialValue xmi:id="_IZnUSs4WEeWlMrnyF_9V8Q"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YK3mgM4WEeWlMrnyF_9V8Q" name="ZipCode" label="ZipCode" length="5" talendType="id_Integer"/>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

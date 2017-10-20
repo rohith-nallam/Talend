@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_XpHscM6nEeWlfZC27JrCKA" name="saleDB_Products" dataPackage="_XpHscc6nEeWlfZC27JrCKA" Server="Localhost 127.0.0.1" FilePath="/Users/talend/Desktop/TCTC_Course_Data/Load_Sales_db/products_table.tsv" Encoding="UTF-8" FieldSeparatorValue="&quot;\t&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Tabulation"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_XpHscc6nEeWlfZC27JrCKA" name="default" dataManager="_XpHscM6nEeWlfZC27JrCKA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_XpHscs6nEeWlfZC27JrCKA" id="_Q2_RUM6nEeWlfZC27JrCKA" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_XpHsc86nEeWlfZC27JrCKA" label="ProductID" length="5" talendType="id_Integer" key="true" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_XpHsdM6nEeWlfZC27JrCKA" label="ProductName" length="40" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_XpHsdc6nEeWlfZC27JrCKA" label="SupplierID" length="5" talendType="id_Integer" key="true" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_XpHsds6nEeWlfZC27JrCKA" label="CategoryID" length="5" talendType="id_Integer" key="true" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_XpHsd86nEeWlfZC27JrCKA" label="Unit" length="40" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_XpHseM6nEeWlfZC27JrCKA" label="Price" length="10" precision="4" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

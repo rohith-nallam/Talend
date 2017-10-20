@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_gy7AILVbEee2GvwbvqrILw" confirmationNeeded="false" name="Default">
+  <contextParameter xmi:id="_gy7AIbVbEee2GvwbvqrILw" comment="" name="courseData" prompt="courseData?" promptNeeded="false" type="id_Directory" value="/Users/talend/Desktop/TCTC_Course_Data/"/>
+</talendfile:ContextType>

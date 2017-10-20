@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_g0FdwLVbEee2GvwbvqrILw" confirmationNeeded="false" name="Default">
+  <contextParameter xmi:id="_g0FdwbVbEee2GvwbvqrILw" comment="" name="tContextDump_FieldSeparator" prompt="tContextDump_FieldSeparator?" promptNeeded="false" type="id_String" value="&quot;\t&quot;"/>
+  <contextParameter xmi:id="_g0FdwrVbEee2GvwbvqrILw" comment="" name="tContextDump_Encoding" prompt="tContextDump_Encoding?" promptNeeded="false" type="id_String" value="US-ASCII"/>
+  <contextParameter xmi:id="_g0Fdw7VbEee2GvwbvqrILw" comment="" name="tContextDump_RowSeparator" prompt="tContextDump_RowSeparator?" promptNeeded="false" type="id_String" value="&quot;\n&quot;"/>
+  <contextParameter xmi:id="_g0FdxLVbEee2GvwbvqrILw" comment="" name="tContextDump_Header" prompt="tContextDump_Header?" promptNeeded="false" type="id_Integer" value="1"/>
+  <contextParameter xmi:id="_g0FdxbVbEee2GvwbvqrILw" comment="" name="tContextDump_fileConnection" prompt="tContextDump_fileConnection?" promptNeeded="false" type="id_File" value="/Users/talend/Desktop/TCTC_Course_Data/Input/tContextLoad_dev_conn.csv"/>
+</talendfile:ContextType>

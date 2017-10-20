@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendJSON="http://www.talend.org/json" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendJSON:JSONFileConnection xmi:id="_aGDu0K2_EeW6J_D4CCGq7g" name="output_json_metadata" dataPackage="_aGDu2K2_EeW6J_D4CCGq7g" JSONFilePath="/Users/talend/Documents/Talend/Section02/json_output.json" Encoding="UTF-8" inputModel="false" outputFilePath="">
+    <root xmi:id="_aGDu0a2_EeW6J_D4CCGq7g" JSONPath="/root" RelatedColumn="" Attribute="main" Order="23" Type="id_String"/>
+    <loop xmi:id="_aGDu0q2_EeW6J_D4CCGq7g" JSONPath="/root/zipcodes" RelatedColumn="" Attribute="main" Order="24" Type="id_String"/>
+    <loop xmi:id="_aGDu062_EeW6J_D4CCGq7g" JSONPath="/root/zipcodes/city" RelatedColumn="" Attribute="branch" Order="25" Type="id_String"/>
+    <loop xmi:id="_aGDu1K2_EeW6J_D4CCGq7g" JSONPath="/root/zipcodes/loc" RelatedColumn="loc" Attribute="branch" Order="26" Type="id_Double"/>
+    <loop xmi:id="_aGDu1a2_EeW6J_D4CCGq7g" JSONPath="/root/zipcodes/pop" RelatedColumn="pop" Attribute="branch" Order="27" Type="id_Integer"/>
+    <loop xmi:id="_aGDu1q2_EeW6J_D4CCGq7g" JSONPath="/root/zipcodes/state" RelatedColumn="state" Attribute="branch" Order="28" Type="id_String"/>
+    <loop xmi:id="_aGDu162_EeW6J_D4CCGq7g" JSONPath="/root/zipcodes/_id" RelatedColumn="_id" Attribute="branch" Order="29" Type="id_String"/>
+  </TalendJSON:JSONFileConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_aGDu2K2_EeW6J_D4CCGq7g" name="default" dataManager="_aGDu0K2_EeW6J_D4CCGq7g">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_aGDu2a2_EeW6J_D4CCGq7g" id="_rdg_UK2-EeW6J_D4CCGq7g" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_aGDu2q2_EeW6J_D4CCGq7g" name="city" label="city" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_aGDu262_EeW6J_D4CCGq7g" name="loc" label="loc" talendType="id_Double"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_aGDu3K2_EeW6J_D4CCGq7g" name="pop" label="pop" talendType="id_Integer"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_aGDu3a2_EeW6J_D4CCGq7g" name="state" label="state" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_aGDu3q2_EeW6J_D4CCGq7g" name="_id" label="_id" talendType="id_String"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

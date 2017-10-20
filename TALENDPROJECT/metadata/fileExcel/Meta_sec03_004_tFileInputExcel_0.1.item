@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:FileExcelConnection xmi:id="_4PvrkbJnEeWbeZFfHs8X7A" name="Meta_sec03_004_tFileInputExcel" dataPackage="_4PvrkrJnEeWbeZFfHs8X7A" Server="Localhost 127.0.0.1" FilePath="/Users/talend/Desktop/TCTC_Course_Data/Input/Metadata/tFileInputExcel.xlsx" Encoding="UTF-8" UseHeader="true" HeaderValue="1" FirstLineCaption="true" SheetName="TechCrunchcontinentalUSA.csv" firstColumn="1" thousandSeparator="','" decimalSeparator="'.'" sheetList="TechCrunchcontinentalUSA.csv:w&#xA;">
+    <sheetColumns>A</sheetColumns>
+    <sheetColumns>B</sheetColumns>
+    <sheetColumns>C</sheetColumns>
+    <sheetColumns>D</sheetColumns>
+    <sheetColumns>E</sheetColumns>
+    <sheetColumns>F</sheetColumns>
+    <sheetColumns>G</sheetColumns>
+    <sheetColumns>H</sheetColumns>
+    <sheetColumns>I</sheetColumns>
+    <sheetColumns>J</sheetColumns>
+  </TalendMetadata:FileExcelConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_4PvrkrJnEeWbeZFfHs8X7A" name="default" dataManager="_4PvrkbJnEeWbeZFfHs8X7A">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_4Pvrk7JnEeWbeZFfHs8X7A" id="_p5CrwLJnEeWbeZFfHs8X7A" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_4PvrlLJnEeWbeZFfHs8X7A" label="permalink" length="14" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_4PvrlbJnEeWbeZFfHs8X7A" label="company" length="14" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_4PvrlrJnEeWbeZFfHs8X7A" label="numEmps" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_4Pvrl7JnEeWbeZFfHs8X7A" label="category" length="8" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_4PvrmLJnEeWbeZFfHs8X7A" label="city" length="14" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_4PvrmbJnEeWbeZFfHs8X7A" label="state" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_4PvrmrJnEeWbeZFfHs8X7A" label="fundedDate" length="28" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_4Pvrm7JnEeWbeZFfHs8X7A" label="raisedAmt" length="9" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_4PvrnLJnEeWbeZFfHs8X7A" label="raisedCurrency" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_4PvrnbJnEeWbeZFfHs8X7A" label="round" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

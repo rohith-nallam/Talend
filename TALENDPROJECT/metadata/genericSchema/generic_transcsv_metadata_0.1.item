@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_ZZSDIK6VEeW4SvDqvoonXQ" comment="connectionComment" label="connectionLabel" dataPackage="_ZZSDIa6VEeW4SvDqvoonXQ"/>
+  <TalendMetadata:GenericPackage xmi:id="_ZZSDIa6VEeW4SvDqvoonXQ" dataManager="_ZZSDIK6VEeW4SvDqvoonXQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_ZZSDIq6VEeW4SvDqvoonXQ" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ZZSDI66VEeW4SvDqvoonXQ" name="author" id="2672" label="author" length="20" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_ZZSDJK6VEeW4SvDqvoonXQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ZZSDJa6VEeW4SvDqvoonXQ" name="title" id="2673" label="title" length="38" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_ZZSDJq6VEeW4SvDqvoonXQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ZZSDJ66VEeW4SvDqvoonXQ" name="price" id="2674" label="price" length="5" precision="3" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_ZZSDKK6VEeW4SvDqvoonXQ"/>
+      </feature>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

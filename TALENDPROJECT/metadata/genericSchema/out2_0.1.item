@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_H_QFwMugEeWJnpJNfpY29g" comment="connectionComment" label="connectionLabel" dataPackage="_H_QFwcugEeWJnpJNfpY29g"/>
+  <TalendMetadata:GenericPackage xmi:id="_H_QFwcugEeWJnpJNfpY29g" dataManager="_H_QFwMugEeWJnpJNfpY29g">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_H_QFwsugEeWJnpJNfpY29g" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_H_QFw8ugEeWJnpJNfpY29g" name="Type" id="1455" label="Type" length="4" precision="-1" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_H_QFxMugEeWJnpJNfpY29g"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_H_QFxcugEeWJnpJNfpY29g" name="diskName_fk_sn" id="1456" label="diskName_fk_sn" length="21" precision="-1" sourceType="" talendType="id_String" key="true">
+        <initialValue xmi:id="_H_QFxsugEeWJnpJNfpY29g"/>
+      </feature>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

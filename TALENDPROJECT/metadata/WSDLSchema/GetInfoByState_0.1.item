@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:WSDLSchemaConnection xmi:id="_SGdYAK3gEeWHOOuhlhKROQ" name="repository.metadataWSDLSchema" dataPackage="_SGd_EK3gEeWHOOuhlhKROQ" WSDL="http://www.webservicex.net/uszip.asmx?wsdl" methodName="GetInfoByState" parameters="MI:w&#xA;" UserName="" Password="" proxyHost="" proxyPort="" proxyUser="" proxyPassword="" timeOut="20"/>
+  <TalendMetadata:GenericPackage xmi:id="_SGd_EK3gEeWHOOuhlhKROQ" name="repository.metadataWSDLSchema" dataManager="_SGdYAK3gEeWHOOuhlhKROQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_SGd_Ea3gEeWHOOuhlhKROQ" id="__QMukK3dEeWHOOuhlhKROQ" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_KAT1wNN7EeWOreqXqIGeVA" label="GetInfoByState" length="140397" talendType="id_String"/>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

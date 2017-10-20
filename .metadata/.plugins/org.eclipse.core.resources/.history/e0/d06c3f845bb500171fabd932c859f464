@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
+  <TalendProperties:Property xmi:id="_KmM44LNBEeWVgMHkMtP3WA" id="_KmMR0LNBEeWVgMHkMtP3WA" label="job_sec03_017_tFileOutputDelimited" purpose="job_sec03_017_tFileOutputDelimited" description="job_sec03_017_tFileOutputDelimited" creationDate="2016-01-04T17:13:37.005-0700" modificationDate="2016-04-26T20:58:12.121-0700" version="0.1" statusCode="" item="_KmM44rNBEeWVgMHkMtP3WA" displayName="job_sec03_017_tFileOutputDelimited">
+    <author href="../../../talend.project#_5ZGMALVYEee2GvwbvqrILw"/>
+  </TalendProperties:Property>
+  <TalendProperties:ItemState xmi:id="_hDw4gLVbEee2GvwbvqrILw" path="File/Output1"/>
+  <TalendProperties:ProcessItem xmi:id="_KmM44rNBEeWVgMHkMtP3WA" property="_KmM44LNBEeWVgMHkMtP3WA" state="_hDw4gLVbEee2GvwbvqrILw">
+    <process href="job_sec03_017_tFileOutputDelimited_0.1.item#/"/>
+  </TalendProperties:ProcessItem>
+</xmi:XMI>

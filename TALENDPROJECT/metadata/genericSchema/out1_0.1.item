@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_kwhHIMufEeWJnpJNfpY29g" comment="connectionComment" label="connectionLabel" dataPackage="_kwhHIcufEeWJnpJNfpY29g"/>
+  <TalendMetadata:GenericPackage xmi:id="_kwhHIcufEeWJnpJNfpY29g" dataManager="_kwhHIMufEeWJnpJNfpY29g">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_kwhHIsufEeWJnpJNfpY29g" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kwhHI8ufEeWJnpJNfpY29g" name="Type" id="1459" label="Type" length="-1" precision="-1" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_kwhHJMufEeWJnpJNfpY29g"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kwhHJcufEeWJnpJNfpY29g" name="DiskName" id="1460" label="DiskName" length="-1" precision="-1" sourceType="" talendType="id_String" key="true">
+        <initialValue xmi:id="_kwhHJsufEeWJnpJNfpY29g"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kwhHJ8ufEeWJnpJNfpY29g" name="Author" id="1461" label="Author" length="-1" precision="-1" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_kwhHKMufEeWJnpJNfpY29g"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kwhHKcufEeWJnpJNfpY29g" name="newColumn3" id="1462" label="newColumn3" length="-1" precision="-1" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_kwhHKsufEeWJnpJNfpY29g"/>
+      </feature>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

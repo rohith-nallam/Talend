@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_ZZgpIM1AEeWlMrnyF_9V8Q" name="tWaitForSqlData" id="_UuV6gM1AEeWlMrnyF_9V8Q" label="tWaitForSqlData" dataPackage="_ZZ-jMM1AEeWlMrnyF_9V8Q" DatabaseType="MySQL" DriverClass="org.gjt.mm.mysql.Driver" URL="jdbc:mysql://localhost:3306/test?noDatetimeStringSync=true" dbVersionString="MYSQL_5" Port="3306" Username="root" Password="NZNgK6DuncI=" ServerName="localhost" DatasourceName="" FileFieldName="" SID="test" SqlSynthax="SQL Syntax" DbmsId="mysql_id" ProductId="MYSQL" AdditionalParams="noDatetimeStringSync=true" StandardSQL="true" SQLMode="false" UiSchema="">
+    <taggedValue xmi:id="_ZZgpIc1AEeWlMrnyF_9V8Q" tag="Is Conn Need Reload" value="false"/>
+    <taggedValue xmi:id="_ZZpMAM1AEeWlMrnyF_9V8Q" tag="package filter" value=""/>
+    <taggedValue xmi:id="_ZZyV8M1AEeWlMrnyF_9V8Q" tag="Status" value=""/>
+    <taggedValue xmi:id="_ZZyV8c1AEeWlMrnyF_9V8Q" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_ZZyV8s1AEeWlMrnyF_9V8Q" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_ZZyV881AEeWlMrnyF_9V8Q" tag="Description" value=""/>
+    <taggedValue xmi:id="_ZZyV9M1AEeWlMrnyF_9V8Q" tag="Author" value=""/>
+    <taggedValue xmi:id="_ZZyV9c1AEeWlMrnyF_9V8Q" tag="otherParameter"/>
+    <taggedValue xmi:id="_ZZ2AUM1AEeWlMrnyF_9V8Q" tag="DB ProductName" value="MySQL"/>
+    <taggedValue xmi:id="_ZZ2AUc1AEeWlMrnyF_9V8Q" tag="DB ProductVersion" value="5.6.28"/>
+    <taggedValue xmi:id="_ZZ2AUs1AEeWlMrnyF_9V8Q" tag="DB IdentifierQuoteString" value="`"/>
+    <parameters xmi:id="_ZZgpIs1AEeWlMrnyF_9V8Q" key="CONN_PARA_KEY_USERNAME" value="root"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_ZZ-jMM1AEeWlMrnyF_9V8Q" name="test" dataManager="_ZZgpIM1AEeWlMrnyF_9V8Q"/>
+</xmi:XMI>

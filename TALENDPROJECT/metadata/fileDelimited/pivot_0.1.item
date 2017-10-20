@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_bFQ9QMu0EeWEH8mezfHTBA" name="pivot" dataPackage="_bFQ9Qcu0EeWEH8mezfHTBA" Server="Localhost 127.0.0.1" FilePath="/Users/talend/Desktop/TCTC_Course_Data/Input/pivot.txt" Encoding="US-ASCII" FieldSeparatorValue="&quot;\t&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Tabulation"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_bFQ9Qcu0EeWEH8mezfHTBA" name="default" dataManager="_bFQ9QMu0EeWEH8mezfHTBA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_bFQ9Qsu0EeWEH8mezfHTBA" id="_SGQa4Mu0EeWEH8mezfHTBA" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ShJVMMu2EeWEH8mezfHTBA" label="Customer" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ShJVMcu2EeWEH8mezfHTBA" label="Key" length="15" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ShJVMsu2EeWEH8mezfHTBA" label="Value" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

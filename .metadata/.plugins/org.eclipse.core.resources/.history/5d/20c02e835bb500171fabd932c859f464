@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
+  <TalendProperties:Property xmi:id="_dlOckM35EeWlMrnyF_9V8Q" id="_dlCPUM35EeWlMrnyF_9V8Q" label="DataDir" creationDate="2016-02-07T17:18:22.041-0700" modificationDate="2016-03-16T16:53:04.553-0700" version="0.1" statusCode="" item="_dlPDoM35EeWlMrnyF_9V8Q" displayName="DataDir">
+    <author href="../talend.project#_5ZGMALVYEee2GvwbvqrILw"/>
+  </TalendProperties:Property>
+  <TalendProperties:ItemState xmi:id="_gy7AIrVbEee2GvwbvqrILw" path=""/>
+  <TalendProperties:ContextItem xmi:id="_dlPDoM35EeWlMrnyF_9V8Q" property="_dlOckM35EeWlMrnyF_9V8Q" state="_gy7AIrVbEee2GvwbvqrILw" defaultContext="Default">
+    <context href="DataDir_0.1.item#_gy7AILVbEee2GvwbvqrILw"/>
+  </TalendProperties:ContextItem>
+</xmi:XMI>

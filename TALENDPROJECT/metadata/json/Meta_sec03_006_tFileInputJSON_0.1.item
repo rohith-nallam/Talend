@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendJSON="http://www.talend.org/json" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendJSON:JSONFileConnection xmi:id="_bSfRELJyEeWbeZFfHs8X7A" name="Meta_sec03_006_tFileInputJSON" dataPackage="_bSfRF7JyEeWbeZFfHs8X7A _Ek7ekLJzEeWbeZFfHs8X7A" JSONFilePath="/Users/talend/Desktop/TCTC_Course_Data/Input/Metadata/tFileInputJSON.json" Encoding="UTF-8" readbyMode="JSONPATH">
+    <schema xmi:id="_bSfREbJyEeWbeZFfHs8X7A" LimitBoucle="100" AbsoluteXPathQuery="$.zipcodes[*]">
+      <schemaTargets xmi:id="_bSfRErJyEeWbeZFfHs8X7A" RelativeXPathQuery="city" TagName="city"/>
+      <schemaTargets xmi:id="_bSfRE7JyEeWbeZFfHs8X7A" RelativeXPathQuery="loc[*]" TagName="loc"/>
+      <schemaTargets xmi:id="_bSfRFLJyEeWbeZFfHs8X7A" RelativeXPathQuery="pop" TagName="pop"/>
+      <schemaTargets xmi:id="_bSfRFbJyEeWbeZFfHs8X7A" RelativeXPathQuery="state" TagName="state"/>
+      <schemaTargets xmi:id="_bSfRFrJyEeWbeZFfHs8X7A" RelativeXPathQuery="_id" TagName="ZipCode"/>
+    </schema>
+  </TalendJSON:JSONFileConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_bSfRF7JyEeWbeZFfHs8X7A" name="default" dataManager="_bSfRELJyEeWbeZFfHs8X7A">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_bSfRGLJyEeWbeZFfHs8X7A" id="_Km-WALJyEeWbeZFfHs8X7A" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_giptsLJzEeWbeZFfHs8X7A" label="city" length="16" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_giptsbJzEeWbeZFfHs8X7A" label="loc" length="23" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_giptsrJzEeWbeZFfHs8X7A" label="pop" length="6" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_gipts7JzEeWbeZFfHs8X7A" label="state" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_gipttLJzEeWbeZFfHs8X7A" label="ZipCode" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_Ek7ekLJzEeWbeZFfHs8X7A" name="default" dataManager="_bSfRELJyEeWbeZFfHs8X7A"/>
+</xmi:XMI>
